@@ -8,7 +8,7 @@ if not n.isdecimal():
 
 n = int(n)
 
-def convert10(n,base):
+def convert_from10(n,base):
     result = ''
 
     while n > 0:
@@ -17,6 +17,6 @@ def convert10(n,base):
 
     return result
 
-print(convert10(n,2))
-print(convert10(n,3))
-print(convert10(n,10))
+print(convert_from10(n,2))
+print(convert_from10(n,3))
+print(convert_from10(n,10))
